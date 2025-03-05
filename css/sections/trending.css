@@ -5,7 +5,8 @@
   overflow: hidden;
 }
 
-.trending-sushi, .trending-drinks {
+.trending-sushi,
+.trending-drinks {
   width: 100%;
   min-height: 640px;
   display: flex;
@@ -38,8 +39,8 @@
 .trending__icon {
   width: 24px;
   height: 24px;
-  background-color: var(--primary-color);
   border-radius: 100%;
+  background-color: var(--primary-color);
 }
 
 .trending__icon img {
@@ -87,19 +88,20 @@
   z-index: 1;
   width: 160px;
   height: 160px;
-  background-color: var(--secondary-color);
   border-radius: 100%;
+  background-color: var(--secondary-color);
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .trending__discover p {
-  color: #fff;
-  text-transform: uppercase;
   font-size: 18px;
   font-weight: 500;
   font-family: var(--plus-jakarta-sans);
+  text-transform: uppercase;
+  color: #fff;
 }
 
 /* Arrows */
